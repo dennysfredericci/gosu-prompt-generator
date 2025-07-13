@@ -29,3 +29,6 @@ docker push fredericci/gosu-prompt-generator:latest
 docker run --rm -it -v ./easy-rag-catalog:/tmp/easy-rag-catalog -v ./easy-rag-embeddings.json:/tmp/easy-rag-embeddings.json -p 8080:8080 -e RAG_PATH=/tmp/easy-rag-catalog -e RAG_FILE=/tmp/easy-rag-embeddings.json fredericci/gosu-prompt-generator
 ```
 
+TODO
+
+Add ReRanker
